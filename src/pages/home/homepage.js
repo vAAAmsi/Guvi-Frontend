@@ -12,7 +12,7 @@ const Homepage = () => {
 
   const dataFetching = async() => {
     try {
-      const res = await axios.get(`https://guvi-backend-eta.vercel.app/${Remail}`)
+      const res = await axios.get(`https://guvi-backend-eight.vercel.app/${Remail}`)
       // console.log(res.data)
     } catch (error) {
       console.log(error)
