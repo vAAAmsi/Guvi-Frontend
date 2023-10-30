@@ -15,7 +15,7 @@ const LoginPage = () => {
   const loginHandler = async(e) => {
     e.preventDefault();
     try {
-      const response = await axios.post("https://guvi-backend-eta.vercel.app",{
+      const response = await axios.post("https://guvi-backend-eight.vercel.app/",{
       email,
       password
       })
