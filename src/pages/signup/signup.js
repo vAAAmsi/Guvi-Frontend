@@ -20,7 +20,7 @@ const SignUp = () => {
     if(password.trim() === confirmPassword.trim()) {
         setPasswordError(false)
         try {
-            const res = await axios.post('http://localhost:5000/signup',{
+            const res = await axios.post('https://guvi-backend-eight.vercel.app/signup',{
                 name,email,password
             });
             console.log(res.data)
